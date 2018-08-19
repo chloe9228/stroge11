@@ -9,17 +9,17 @@ class HomePage extends Component {
   render() {
     return (
       <div>
+        <span
+          style={{
+            textOverflow: "ellipsis",
+            backgroundColor: "#ca8787",
+            color: "#ffffff"
+          }}
+        >
+          Brand experience marketer{" "}
+        </span>
         <div style={{ color: "#6b6161" }}>
-          <div
-            style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px"
-            }}
-          >
+          <div>
             <span
               style={{
                 lineHeight: "20px",
@@ -27,24 +27,22 @@ class HomePage extends Component {
                 color: "#4a90e2"
               }}
             >
-              Hello , World [Chloe9228]🖍
+              Jiyeon Kang🖍
             </span>
-            <div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  height: "100px",
-                  alignItems: "center",
-                  backgroundColor: "#fcecd7",
-                  borderRadius: "4px"
-                }}
-              >
-                <span>first</span>
-              </div>
-            </div>
+            <div><div /></div>
           </div>
         </div>
+        <a href="#https://www.facebook.com/fascinatingjiyeon">
+          <span>Facebook</span>
+        </a>
+        <img
+          src="https://github.com/chloe9228/stroge11/blob/master/app/assets/12711284_10207357202781419_5625335062817740761_o.jpg?raw=true"
+          style={{
+            width: "300px",
+            display: "inline-block",
+            alignItems: "center"
+          }}
+        />
       </div>
     ); // eslint-disable-line
   }

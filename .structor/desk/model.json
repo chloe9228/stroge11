@@ -5,6 +5,17 @@
       "pagePath": "/home",
       "children": [
         {
+          "type": "span",
+          "text": "Brand experience marketer ",
+          "props": {
+            "style": {
+              "textOverflow": "ellipsis",
+              "backgroundColor": "#ca8787",
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
           "type": "div",
           "variant": "default",
           "props": {
@@ -16,20 +27,11 @@
             {
               "type": "div",
               "variant": "default",
-              "props": {
-                "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
-                }
-              },
+              "props": {},
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 🖍",
+                  "text": "Jiyeon Kang🖍",
                   "props": {
                     "style": {
                       "lineHeight": "20px",
@@ -48,27 +50,42 @@
                       "variant": "default",
                       "props": {
                         "style": {
-                          "display": "flex",
-                          "justifyContent": "center",
-                          "height": "100px",
-                          "alignItems": "center",
-                          "backgroundColor": "#fcecd7",
                           "borderRadius": "4px"
                         }
                       },
-                      "children": [
-                        {
-                          "type": "span",
-                          "text": "first",
-                          "props": {}
-                        }
-                      ]
+                      "children": []
                     }
                   ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "a",
+          "variant": "default",
+          "props": {
+            "href": "#https://www.facebook.com/fascinatingjiyeon"
+          },
+          "children": [
+            {
+              "type": "span",
+              "text": "Facebook"
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "variant": "default",
+          "props": {
+            "src": "https://github.com/chloe9228/stroge11/blob/master/app/assets/12711284_10207357202781419_5625335062817740761_o.jpg?raw=true",
+            "style": {
+              "width": "300px",
+              "display": "inline-block",
+              "alignItems": "center"
+            }
+          },
+          "children": []
         }
       ]
     },
