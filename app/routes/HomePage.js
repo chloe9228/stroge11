@@ -16,7 +16,7 @@ class HomePage extends Component {
             color: "#ffffff"
           }}
         >
-          Brand experience marketer{" "}
+          Brand experience marketer  ~
         </span>
         <div style={{ color: "#6b6161" }}>
           <div>

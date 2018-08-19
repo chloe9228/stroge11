@@ -6,7 +6,7 @@
       "children": [
         {
           "type": "span",
-          "text": "Brand experience marketer ",
+          "text": "Brand experience marketer  !@",
           "props": {
             "style": {
               "textOverflow": "ellipsis",
@@ -48,11 +48,7 @@
                     {
                       "type": "div",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "borderRadius": "4px"
-                        }
-                      },
+                      "props": {},
                       "children": []
                     }
                   ]
