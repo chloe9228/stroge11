@@ -3,16 +3,12 @@
  * HomePage
  *
  */
-
 import React, { Component } from "react";
-
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
-
   render() {
     return (
       <div>
-
         <div style={{ color: "#6b6161" }}>
           <div
             style={{
@@ -33,12 +29,24 @@ class HomePage extends Component {
             >
               Hello Colorful World 🖍
             </span>
+            <div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  height: "100px",
+                  alignItems: "center",
+                  backgroundColor: "#fcecd7",
+                  borderRadius: "4px"
+                }}
+              >
+                <span>first</span>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
     ); // eslint-disable-line
   }
 }
-
 export default HomePage;
