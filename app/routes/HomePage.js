@@ -32,7 +32,7 @@ class HomePage extends Component {
             <div><div /></div>
           </div>
         </div>
-        <a href="#https://www.facebook.com/fascinatingjiyeon">
+        <a href="https://www.facebook.com/fascinatingjiyeon">
           <span>Facebook</span>
         </a>
         <img
