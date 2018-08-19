@@ -27,7 +27,7 @@ class HomePage extends Component {
                 color: "#4a90e2"
               }}
             >
-              Hello Colorful World 🖍
+              Hello , World [Chloe9228]🖍
             </span>
             <div>
               <div
